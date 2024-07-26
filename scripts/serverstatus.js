@@ -4,6 +4,7 @@
    | |  | | | | | \ \ / / _ \> _ <  / /   / __| | |    / _ \ / _` |/ _ \ 
    | |__| | |_| | |\ V /  __/ (_) |/ /    \__ \ | |___| (_) | (_| |  __/ 
     \___\_\\__,_|_| \_/ \___|\___//_/     |___/  \_____\___/ \__,_|\___|   */
+
     class ServerStatus {
         constructor(timelines, enabledStatuses) {
             this.timelines = timelines;

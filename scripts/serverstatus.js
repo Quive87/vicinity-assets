@@ -88,3 +88,17 @@
         document.getElementById('statusIcon').src = enabledStatuses[5].icon;
         updateStatus(false)
     }const server = new ServerStatus(timelines, enabledStatuses); server.startSimulation();
+
+/* <!-- Required HTML elements for the ServerStatus code -->
+
+<!-- 1. Element to display the current status text -->
+<div id="statusLabel"></div>
+
+<!-- 2. Element to show the status color -->
+<div id="statusIndicator"></div>
+
+<!-- 3. Element to display the server status message -->
+<div id="serverst"></div>
+
+<!-- 4. Element to show an icon representing the status -->
+<img id="statusIcon" src="" alt="Status Icon"> */
